@@ -1,0 +1,24 @@
+.super-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.words-super-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 650px;
+    justify-content: space-between;
+}
+.bold-container{
+    margin-top: -35px;
+}
+.bold{
+    font-family: 'Inter',sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+
+}
+.pragraph{
+    font-family: 'Inter',sans-serif;
+    font-size: 15px;
+}

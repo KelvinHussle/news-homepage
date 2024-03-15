@@ -1,0 +1,24 @@
+.outer-container{
+    margin-top: -3%;
+    background-color: var(--very-dark-blue);
+    max-width: 600px;
+    color: var(--white);
+}
+.outer-container ul{
+    list-style: none;
+    padding: 20px;
+}
+.newhead{
+    font-family: 'Inter',sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+.list-2{
+    border: .5px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: var(--dark-grayish-blue);
+
+}

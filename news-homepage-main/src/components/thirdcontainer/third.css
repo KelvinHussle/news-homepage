@@ -1,0 +1,29 @@
+*{
+    font-family: 'Inter',sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.outside{
+    margin:20px;
+}
+.news-container{
+    display: flex;
+    overflow: hidden;
+    column-gap: 20px;
+    flex-direction: row;
+}
+#number{
+    margin-top: -2%;
+    font-size: 40px;
+}
+#heading{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: -4%;
+}
+img{
+    height: 184px;
+    width: 150px;
+}
