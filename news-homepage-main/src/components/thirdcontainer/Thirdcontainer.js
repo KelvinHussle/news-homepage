@@ -28,7 +28,7 @@ const Thirdcontainer = ()=>{
         }
     ];
     return(
-      <div className="container">
+      <div className="third-container">
      {newsdata.map((newsdata, idx) => (
     <div className="outside"
             key={idx}

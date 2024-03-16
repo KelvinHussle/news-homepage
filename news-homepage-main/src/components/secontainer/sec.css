@@ -22,3 +22,12 @@
     border-color: var(--dark-grayish-blue);
 
 }
+
+@media screen and (max-width: 600px) {
+    /* Your CSS styles for small screens go here */
+    .outer-container{
+        margin: 0 auto;
+        max-width: 92vw;
+        color: var(--white);
+    }
+}

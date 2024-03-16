@@ -22,3 +22,25 @@
     font-family: 'Inter',sans-serif;
     font-size: 15px;
 }
+@media screen and (max-width: 600px) {
+    /* Your CSS styles for small screens go here */
+    .image-container img{
+        display: none;  
+    }
+    .image-container::after{
+        content: url('../images/image-web-3-mobile.jpg');
+        margin: 0 auto;
+        display: block;
+        overflow: hidden;
+        max-width: 92vw;
+        max-height: 60vh;
+    }
+    .bold-container{
+        margin-top: 0;
+    }
+    .words-super-container{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}

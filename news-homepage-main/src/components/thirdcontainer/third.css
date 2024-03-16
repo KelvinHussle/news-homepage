@@ -1,29 +1,45 @@
 *{
     font-family: 'Inter',sans-serif;
 }
-.container{
+.third-container{
     display: flex;
     flex-direction: row;
+    margin-left: 75px;
 }
-.outside{
-    margin:20px;
-}
+
 .news-container{
     display: flex;
     overflow: hidden;
-    column-gap: 20px;
+    column-gap: 10px;
     flex-direction: row;
+    margin-bottom: 20px;
 }
 #number{
     margin-top: -2%;
-    font-size: 40px;
+    font-size: 35px;
 }
 #heading{
     font-weight: 700;
-    font-size: 25px;
+    font-size: 23px;
     margin-top: -4%;
 }
 img{
     height: 184px;
     width: 150px;
 }
+@media screen and (max-width: 600px) {
+    /* Your CSS styles for small screens go here */
+    .third-container{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 92vw;
+        row-gap: 15px;
+    }
+    #number{
+        font-size: 30px;
+    }
+    #heading{
+        font-weight: 700;
+        font-size: 20px;
+    }
+  }
