@@ -7,8 +7,8 @@ const Home =()=>{
     return(
         <>
         <div className="flex-out">
-            <div><Firstcontainer/></div>
-            <div><Secontainer/> </div>  
+            <div className="ficontain"><Firstcontainer/></div>
+            <div className="secontain"><Secontainer/> </div>  
         </div>
         <div>
         <Thirdcontainer/>

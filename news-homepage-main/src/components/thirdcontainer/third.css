@@ -4,24 +4,26 @@
 .third-container{
     display: flex;
     flex-direction: row;
-    margin-left: 75px;
+    margin-left: 150px;
 }
 
 .news-container{
     display: flex;
     overflow: hidden;
-    column-gap: 10px;
+    text-overflow: none;
     flex-direction: row;
     margin-bottom: 20px;
+    margin-left: 20px;
+    column-gap: 10px;
 }
 #number{
-    color: var(--dark-grayish-blue);
+    color: var(--grayish-blue);
     margin-top: -2%;
-    font-size: 35px;
+    font-size: 33px;
 }
 #heading{
     font-weight: 700;
-    font-size: 23px;
+    font-size: 20px;
     margin-top: -4%;
 }
 #heading:hover{
@@ -29,8 +31,8 @@
     cursor: pointer;
 }
 img{
-    height: 184px;
-    width: 150px;
+    height: 164px;
+    width: 140px;
 }
 @media screen and (max-width: 600px) {
     /* Your CSS styles for small screens go here */

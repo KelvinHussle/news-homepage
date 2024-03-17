@@ -1,7 +1,7 @@
 .outer-container{
     margin-top: -3%;
     background-color: var(--very-dark-blue);
-    max-width: 600px;
+    max-width: 500px;
     color: var(--white);
 }
 .outer-container ul{
@@ -30,6 +30,7 @@ h3:hover{
 
 @media screen and (max-width: 600px) {
     /* Your CSS styles for small screens go here */
+
     .outer-container{
         margin: 0 auto;
         max-width: 92vw;
