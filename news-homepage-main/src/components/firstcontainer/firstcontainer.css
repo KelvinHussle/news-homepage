@@ -43,7 +43,7 @@
     }
     .words-super-container{
         flex-direction: column;
-        justify-content: center;
-        margin: 0 auto;
+        margin-left: 20px;
+
     }
 }
