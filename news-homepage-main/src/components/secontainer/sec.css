@@ -12,6 +12,11 @@
     font-family: 'Inter',sans-serif;
     font-weight: 800;
     font-size: 40px;
+    color: var(--soft-orange);
+}
+h3:hover{
+    color: var(--soft-orange);
+    cursor: pointer;
 }
 .list-2{
     border: .5px;
